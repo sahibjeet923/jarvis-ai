@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JARVIS AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <div class="status"><span class="dot"></span> JARVIS ONLINE</div>
+
+    <h1>JARVIS</h1>
+    <p class="subtitle">Personal AI Voice Assistant</p>
+
+    <div class="orb">
+      <div class="core"></div>
+    </div>
+
+    <section id="chat" class="chat">
+      <div class="message jarvis">
+        Hello. I am JARVIS. How can I assist you?
+      </div>
+    </section>
+
+    <div class="controls">
+      <button id="mic" class="mic">🎙️</button>
+
+      <input
+        id="input"
+        type="text"
+        placeholder="Ask JARVIS..."
+        autocomplete="off"
+      >
+
+      <button id="send">➤</button>
+    </div>
+
+    <p id="hint">Tap the microphone or type a message.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
